@@ -1,5 +1,7 @@
 # Transmute Functions
 
+Work in progress!
+
 Cloud functions for ethereum services.
 
 Portability to other cloud providers in progress.
@@ -12,6 +14,8 @@ yarn global add transmute-cli@latest
 
 ## Basic
 
+Just a front end app, using transmute hosted services (this repo).
+
 ```
 transmute init --basic .
 ```
@@ -20,6 +24,8 @@ This will create a new dapp, which is configured to use transmute industries hos
 
 
 ## Advanced
+
+Dockerized app, api, ipfs and ethereum, fully configurable boilerplate.
 
 ```
 transmute init --advanced .
